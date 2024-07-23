@@ -17,7 +17,7 @@ image::dev-flow.png[Red Hat Products]
 
 Your credential to access the hands-on lab:
 
-* Username: *{user_name}*
-* Password: *{user_password}*
+* Username: *{user}*
+* Password: *{password}*
 
 Before diving into a particular module, we recommend that you go through the workshop introduction module, to explore the technical and functional environment for this workshop. *Go ahead! Choose your adventure!*
