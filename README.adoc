@@ -1,6 +1,6 @@
 # Red Hat AI Development Roadshow - Developer Track
 
-To consult the static version of the instructions, please use this URL https://rh-rad-ai-roadshow.github.io/dev-guides/[this URL].
+To consult the static version of the instructions, please use https://rh-rad-ai-roadshow.github.io/dev-guides/[this URL].
 
 == Getting Started
 
