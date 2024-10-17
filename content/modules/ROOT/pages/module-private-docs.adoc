@@ -85,7 +85,7 @@ In the terminal window that you opened earlier at the bottom of the editor, run 
 [.console-input]
 [source,bash,subs="+attributes,macros+"]
 ----
-./mvnw clean quarkus:dev -Dquarkus.otel.enabled=true -Dquarkus.otel.exporter.otlp.traces.endpoint=http://jaeger.parasol-app-{user}-dev.svc.cluster.local:4137
+./mvnw clean quarkus:dev -Dquarkus.otel.enabled=true -Dquarkus.otel.exporter.otlp.traces.endpoint=http://jaeger.parasol-app-{user}-dev.svc.cluster.local:4317
 ----
 
 This will download some dependencies and start the application in Quarkus Dev Mode.
