@@ -376,7 +376,7 @@ with:
 [source,properties,subs="+attributes,macros+"]
 ----
 # quarkus.langchain4j.openai.parasol-chat.chat-model.stop=DONE,done,stop,STOP
-quarkus.langchain4j.openai.parasol-chat.chat-model.model-name=llama3.2
+quarkus.langchain4j.openai.parasol-chat.chat-model.model-name=llama3.1
 quarkus.langchain4j.openai.parasol-chat.base-url=http://parasol-tools.aiworkshop.svc.cluster.local/v1
 ----
 
@@ -407,6 +407,8 @@ image::private-docs/open-quarkus-devui.png[Open Quarkus Dev UI]
 image::private-docs/quarkus-dev-ui.png[Quarkus Dev UI]
 
 Find the "Mailpit" section and click on the https://{user}-parasol-insurance-quarkus-devui.{openshift_cluster_ingress_domain}/q/mailpit/[link^] next to "Mailpit UI" and you will see a new email that was sent thanks to our newly added functionality!
+
+NOTE: The mailpit section might not be exactly in the same location as in the screenshot above.
 
 image::private-docs/mailpit.png[Mailpit UI]
 
@@ -468,14 +470,14 @@ image::private-docs/jaeger-trace-details.png[Jaeger trace details]
 . The entrypoint to the chat interface (`org.parasol.resources.ClaimWebsocketChatBot` class, `onMessage` method).
 . Entrypoint into the `ClaimService` AI service's `chat` method.
 . REST HTTP call to the embedding model to retrieve appropriate embeddings based on the chat query.
-. Call to the `llama3.2` model.
+. Call to the `llama3.1` model.
 . REST HTTP call to the model server.
 . Callback from the model to invoke the `updateClaimStatus` tool.
 . Call into our `NotificationService.updateClaimStatus` method.
 . Get a connection to the database.
 . **Select** the `Claim` record from the database to update.
 . **Update** the `Claim` record from the database and set the claim's status to **denied**.
-. Send the result of the tool invocation back to the `llama3.2` model.
+. Send the result of the tool invocation back to the `llama3.1` model.
 . REST HTTP call to the model server including the result from the tool invocation.
 
 You can click on any span to show more contextual information about the span:
