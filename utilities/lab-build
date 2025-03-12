@@ -20,16 +20,18 @@ current_dir="$(dirname "$(realpath "$0")")"
 source $current_dir/detect-container-runtime
 
 volume_mount_flag=""
+platform_flag=""
 os_name="$(uname -s)" # Detect the operating system, Linux needs `:z` macos does not
 
 # Set the volume mount flag to ":z" if the OS is Linux
 if [ "$os_name" = "Linux" ]; then
   volume_mount_flag=":z"
+  platform_flag="--platform linux/amd64"
 fi
 
 ${CONTAINER_RUNTIME} \
   run --rm --name showroom-builder \
-  --platform linux/amd64 \
+  ${platform_flag} \
   -v "./:/antora${volume_mount_flag}" \
   docker.io/antora/antora default-site.yml
 
