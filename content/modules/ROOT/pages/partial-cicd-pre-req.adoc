@@ -11,7 +11,7 @@ Click on `CD` to review ArgoCD History.
 
 image::devhub/frontend_argohistory.png[]
 
-Click on `TOPOLOGY` to review your deployment status. Then, you will see the deployment *parasol-app-{user}* in the Topology.
+Click on `TOPOLOGY` to review your deployment status. Then, you will see the deployment *parasol-app-{user}-dev* in the Topology.
 
 NOTE: If the deployment shows up as **red**, make sure to wait until the **Pipeline Run** on the `CI` tab completes successfully.
 
