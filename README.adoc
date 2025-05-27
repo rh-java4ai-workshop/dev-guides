@@ -1,4 +1,4 @@
-# Red Hat AI Development Roadshow - Developer Track
+# Java for AI Hands-on Workshop
 
 To consult the static version of the instructions, please use https://rh-rad-ai-roadshow.github.io/dev-guides/[this URL].
 
