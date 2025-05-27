@@ -1,6 +1,6 @@
 ---
 site:
-  title: Red Hat AI Development Roadshow - Developer Track
+  title: Java for AI Hands-on Workshop
   start_page: modules::index.adoc
 
 content:
@@ -14,8 +14,8 @@ asciidoc:
 
 ui:
   bundle:
-    # url: https://github.com/rhpds/rhdp_showroom_theme/releases/download/v0.0.1/ui-bundle.zip
-    url: https://github.com/rhpds/rhdp_showroom_theme/releases/download/rh-summit-2025/ui-bundle.zip
+     url: https://github.com/rhpds/rhdp_showroom_theme/releases/download/v0.0.1/ui-bundle.zip
+#    url: https://github.com/rhpds/rhdp_showroom_theme/releases/download/rh-summit-2025/ui-bundle.zip
 
 # antora:
 #   extensions:

@@ -701,10 +701,10 @@ Here is a quick summary of what we have learned:
 - Explored common use cases for gaining value from an LLM, such as agents and content analysis
 - Developed a new prompt from scratch in support of a new business use case
 
-== Extra Credit - Podman Desktop with AI Lab
-
-Podman Desktop is an open source tool by Red Hat that enables you to work with containerized applications in an easy to use graphical interface local to your laptop or workstation.  AI Lab is an extension to Podman Desktop that provides additional functionality for interacting with Large Language Models using a variety of experiences or recipes (including chat and document summarization).  Its Playground feature enables you to easily select and download a model and then have an interactive conversation with it using a system prompt that you provide.  The most common parameters, such as temperature and token count, can be customized directly within the playground UI itself.
-
-image::prompt/podman-desktop-with-ai-lab.png[Podman Desktop with AI Lab]
-
-If you would like to install Podman Desktop in your own environment, visit http://podman-desktop.io[podman-desktop.io^] and click the "Download Now" button in the middle of the page.  Once installed, click the download button next to AI Lab on either the home screen or search for it in the Extensions view.
+// == Extra Credit - Podman Desktop with AI Lab
+//
+// Podman Desktop is an open source tool by Red Hat that enables you to work with containerized applications in an easy to use graphical interface local to your laptop or workstation.  AI Lab is an extension to Podman Desktop that provides additional functionality for interacting with Large Language Models using a variety of experiences or recipes (including chat and document summarization).  Its Playground feature enables you to easily select and download a model and then have an interactive conversation with it using a system prompt that you provide.  The most common parameters, such as temperature and token count, can be customized directly within the playground UI itself.
+//
+// image::prompt/podman-desktop-with-ai-lab.png[Podman Desktop with AI Lab]
+//
+// If you would like to install Podman Desktop in your own environment, visit http://podman-desktop.io[podman-desktop.io^] and click the "Download Now" button in the middle of the page.  Once installed, click the download button next to AI Lab on either the home screen or search for it in the Extensions view.

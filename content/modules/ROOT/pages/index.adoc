@@ -24,10 +24,18 @@ Throughout this workshop, you as a developer will be interfacing with a variety 
 
 == Red Hat Products and Technologies
 
-In this workshop, you'll gain hands-on experience with several cutting-edge Red Hat products and technologies that together form the basis of Red Hat's Hybrid Cloud AI solution. Depending on your role at your company, you will be more interested in certain subsets. For this Developer track, we'll focus on Podman Desktop AI Lab,
-RHEL AI, Red Hat Developer tools, and OpenShift AI as shown below.
+In this workshop, you'll gain hands-on experience with several cutting-edge Red Hat products and technologies that together form the basis of Red Hat's Hybrid Cloud AI solution. Depending on your role at your company, you will be more interested in certain subsets. For this workshop, we'll focus on the following products and open source technologies:
 
-image::dev-flow.png[title="Red Hat Products", link=self, window=blank]
+* Quarkus
+* LangChain4j
+* Red Hat Developer Hub
+* Red Hat Dev Spaces
+* Red Hat OpenShift
+* Red Hat OpenShift AI
+* Red Hat OpenShift GitOps
+* Red Hat OpenShift Pipeline
+
+// image::dev-flow.png[title="Red Hat Products", link=self, window=blank]
 
 The AI-infused application is built on `Quarkus`, a modern high-performance Java framework designed for building microservices and serverless applications. It's built on a combination of technologies, including GraalVM, Hot Reload, and Kubernetes-native features, making it a powerful and efficient choice for Java developers.
 

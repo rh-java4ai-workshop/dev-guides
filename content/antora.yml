@@ -1,12 +1,12 @@
 name: modules
-title: Red Hat AI Development Roadshow - Developer Track
+title: Java for AI Hands-on Workshop
 version: main
 nav:
 - modules/ROOT/nav.adoc
 
 asciidoc:
   attributes:
-    lab_name: Red Hat AI Development Roadshow - Developer Track
+    lab_name: Java for AI Hands-on Workshop
     user: user1
     password: openshift
     openshift_cluster_ingress_domain: app.example.sandbox.com
