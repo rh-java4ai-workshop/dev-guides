@@ -525,6 +525,14 @@ If you haven't created *a new Gen AI email service* in the previous module yet, 
 sh ${PROJECT_SOURCE}/scripts/create-email-ai-service.sh
 ----
 
+Then add the following configuration to the `application.properties` file in the *src/main/resources* folder.
+
+[.console-input]
+[source,properties,subs="+attributes,macros+"]
+----
+quarkus.dev-ui.hosts={user}-parasol-insurance-quarkus-devui.{openshift_cluster_ingress_domain}
+----
+
 Access the https://parasol-app-{user}-dev-parasol-app-{user}-dev.{openshift_cluster_ingress_domain}[Parasol web page^],to verify the Gen AI email service. To access the email service, click on the `Email Generate` tab on the left and use it in the following sections:
 ====
 
