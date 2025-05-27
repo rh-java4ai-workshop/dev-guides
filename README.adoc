@@ -1,6 +1,6 @@
 # Java for AI Hands-on Workshop
 
-To consult the static version of the instructions, please use https://rh-java4ai-workshop.github.io/dev-guides/[https://rh-rad-ai-roadshow.github.io/dev-guides]/[this URL].
+To consult the static version of the instructions, please use https://rh-java4ai-workshop.github.io/dev-guides/modules/main/index.html[this URL].
 
 == Getting Started
 
