@@ -48,3 +48,7 @@ image::devhub/devspaces_trustauthors.png[devspaces_trustauthors, 800]
 Then you should see:
 
 image::devhub/devspaces_view.png[devspaces_view, 800]
+
+When you see the publisher notification, click on *Trust Publishers & Install* to grant the necessary permissions.
+
+image::devhub/devspaces_publish_notification.png[devspaces_publish_notification, 800]

@@ -238,7 +238,9 @@ describe('Parasol Claim response test', () => {
 
 ----
 
-Let's test the model again by clicking on the `Run Tests` button.
+Let's test the model again by clicking on the `Run Tests` button. 
+
+Note that if you go back to the `Testing` panel from other tabs, you should see that the test runs automatically.
 
 image::model-testing/run-tests-2.png[npm_output]
 

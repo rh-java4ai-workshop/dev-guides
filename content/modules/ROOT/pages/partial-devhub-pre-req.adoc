@@ -52,7 +52,7 @@ Find more information about the Red Hat Developer Hub https://developers.redhat.
 
 In Red Hat Developer Hub, a software template serves as a pre-configured blueprint for creating development environments and infrastructure. Software templates streamline the process of setting up development environments by encapsulating pre-defined configurations. This saves developers time and effort compared to manually configuring everything from scratch.
 
-Click on `Create...` on the left menu. Then, type *Parasol* in the search bar. Then, `Choose` the *Parasol Insurance for Red Hat AI App Development (RAD) Workshop* template.
+Click on `+` on the top menu. Then, type *Parasol* in the search bar. Then, `Choose` the *Parasol Insurance for Red Hat AI App Development (RAD) Workshop* template.
 
 image::devhub/software_template_parasol_llm.png[]
 
